@@ -39,6 +39,34 @@
 					</a>
 				</div>
 				<!-- /logo -->
+				<!-- Navbar -->
+				<nav class="navbar navbar-expand-sm navbar-light justify-content-end">
+					<a class="navbar-brand" href="#">
+						<img class="logo-img" src="http://fjallraven.clone/wp-content/uploads/2019/12/Footer-Logo.jpg" alt="Fjallraven Logo">
+					</a>
+					<ul class="navbar-nav">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Men</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Women</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Bags & Gear</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Sustainability</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Our Adventures</a>
+						</li>
+					</ul>
+					<form class="form-inline" action="/action_page.php">
+						<input class="form-control mr-sm-2" type="text" placeholder="Search">
+						<button class="btn btn-success" type="submit">Search</button>
+					</form>
+				</nav> 
+				<!-- /Navbar -->
 
 			</header>
 			<!-- /header -->
