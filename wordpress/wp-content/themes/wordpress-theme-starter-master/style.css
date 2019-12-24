@@ -4,7 +4,6 @@
  * Main `sass` file. Import here `sass` files
  */
 @import url("https://fonts.googleapis.com/css?family=Hind:400,700|Roboto+Slab");
-@import url("https://fast.fonts.net/cssapi/0e302500-1b4b-46da-b807-eade144ca027.css");
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -119,13 +118,13 @@
   margin: 0 auto;
 }
 
-h1 {
-  font-family: cursive;
-  font-size: 14px;
-}
-
 .div {
   display: block;
+}
+
+.banner {
+  position: relative;
+  padding: 0 20px;
 }
 
 .carousel-item {
@@ -141,6 +140,12 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.carousel-caption {
+  display: block;
+  font-family: cursive;
+  font-size: 32px;
 }
 
 .button {
@@ -163,6 +168,29 @@ h1 {
   transition-property: box-shadow, transform, background-color, color;
   user-select: none;
   white-space: nowrap;
+}
+
+.border {
+  display: block;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  padding: 5px;
+  border: 2px solid #d6d6d6;
+  border-top: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.col {
+  display: inline-block;
+  cursor: pointer;
+  font-family: arial;
+  line-height: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

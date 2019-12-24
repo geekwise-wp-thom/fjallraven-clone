@@ -1,5 +1,10 @@
 .div {
-  display: block
+  display: block;
+}
+
+.banner {
+  position: relative;
+  padding: 0 20px;
 }
 
 .carousel-item {
@@ -45,24 +50,57 @@
   white-space: nowrap;
 }  
 
-.flex-container {
-  display: flex;
+.border {
+  display: block;
   position: relative;
   width: 100%;
   align-items: center;
+  padding: 5px;
+  border: 2px solid #d6d6d6;
+  border-top: none;
+  // .link {
+  //   display: inline-block;
+  //   line-height: 20px;
+  //     .link-text {
+  //       font-size: 14px;
+  //       color: 707070;
+  //     }
+  //     .link-border {
+  //       padding-left: 15px;
+  //       border-left: 2px solid #d6d6d6;
+  //       border-left-width: 2px;
+  //       border-left-style: solid;
+  //       border-left-color: rgb(214, 214, 214);
+  //     }
+  // }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .col {
   display: inline-block;
   cursor: pointer;
-  font-family: cursive;
+  font-family: arial;
   line-height: 20px;
 }
 
-// .carousel-links {
-//   padding-left: 15px;
-//   border-left: 2px solid #d6d6d6;
-//   border-left-width: 2px;
-//   border-left-style: solid;
-//   border-left-color: rgb(214, 214, 214);
+
+// .first-grid {
+//   margin: 0 auto;
+//   padding: 10px;
+//   .row {
+//     display: flex;
+//     flex-wrap: wrap;
+//     width: 100%;
+//   }
+//   .col {
+    //   @for $i from 1 through $grid-columns {
+    //   .col-#{$i} {
+    //   flex-basis: (100 / ($grid-columns / $i) ) * 1%;
+    //   }
+    // }
 // }
