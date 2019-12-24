@@ -12,28 +12,28 @@ get_header(); ?>
 					<div class="carousel-item active">
 						<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Header-Carousel-Green-Holiday-with-Yellow.jpg" alt="Green holiday">
 						<div class="carousel-caption">
-        					<p class="button" style="float: center;"><strong>God Jul!</strong></p>
+        					<a class="button" style="float: center;" href="#"><strong>GOD JUL!</strong></a>
       					</div>  
   					</div>
 					<div class="carousel-item">
 						<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Header-Carousel-Backpacks-scaled.jpg" alt="Backpacks">
 						<div class="carousel-caption">
        						<h1 style="font-size: 32px;">FUN FOR THE HOLIDAYS</h1>
-        					<p class="button" style="float: center;">SHOP <strong>KANKEN</strong></p>
+        					<a class="button" style="float: center;" href="#">SHOP  <strong>KANKEN</strong></a>
       					</div> 
   					</div>
   					<div class="carousel-item">
 						<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Header-Carousel-Holiday-Packaging.jpg" alt="Holiday packaging">
 						<div class="carousel-caption">
        						<h1 style="font-size: 32px;">GIVE THE GIFT OF FJALLRAVEN</h1>
-        					<p class="button" style="float: center;">SHOP <strong>GIFT GUIDE</strong></p>
+        					<a class="button" style="float: center;" href="#">SHOP  <strong>GIFT GUIDE</strong></a>
       					</div> 
   					</div>
 					<div class="carousel-item">
 						<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Header-Carousel-Women-to-Right-scaled.jpg" alt="Women to right">
 						<div class="carousel-caption" style="text-align: left;">
        						<h1 style="font-size: 32px; color: gray;">STAY WARM THIS WINTER</h1>
-        					<p class="button" style="float: center;">SHOP <strong>PARKAS</strong></p>
+        					<a class="button" style="float: center;" href="#">SHOP  <strong>PARKAS</strong></a>
       					</div> 
   					</div>
 				</div>
@@ -41,7 +41,7 @@ get_header(); ?>
 					<div class="col-3"></div>
   					<div class="col-6">
     					<div class="row link">
-							<div class="col">God Jul</div>
+							<div class="col">God Jul!</div>
 							<div class="col link-border">Kanken</div>
 							<div class="col link-border">Gift Guide</div>
 							<div class="col link-border">Parkas</div>
