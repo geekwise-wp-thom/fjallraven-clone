@@ -1,4 +1,4 @@
-.div {
+div {
   display: block;
 }
 
@@ -15,17 +15,26 @@
 
 .carousel-inner img {
   position: absolute;
-  z-index: 0;
+  z-index: 1;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  max-width: 100vw;
+  padding: 0 20px;
 }
 
 .carousel-caption {
   display: block;
   font-family: cursive;
   font-size: 32px;
+  position: absolute;
+  z-index: 1;
+  top: 53%;
+  left: 25%;
+  width: 100%;
+  max-width: 800px;
+  padding: 0 30px;
 }
 
 .button {
