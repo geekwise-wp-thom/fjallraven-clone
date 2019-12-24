@@ -5,7 +5,15 @@
 
 
 // Header container
-.header {}
+.header {
+  padding: 0;
+  margin: 0;
+}
+
+// Navbar Top
+.navbar-top {
+  background-color: #E8E7E6;
+}
 
 // Logo
 .logo {

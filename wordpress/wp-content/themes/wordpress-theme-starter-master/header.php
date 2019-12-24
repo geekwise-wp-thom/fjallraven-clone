@@ -31,39 +31,44 @@
 			<!-- header -->
 			<header class="header clear" role="banner">
 			
-				<!-- logo -->
-				<div class="logo">
-					<a href="<?php echo home_url(); ?>">
-						<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-						<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
-					</a>
+				<!-- Top Nav -->
+				<div class="navbar-top">
+					<div class="container d-flex justify-content-between">
+						<p><strong>Free Shipping over $100!</strong></p>
+						<nav>
+							<a href="#">Store Locator</a>
+							<span><img src="http://fjallraven.clone/wp-content/uploads/2019/12/flag-us.png" alt="US Flag"><a href="">United States</a></span>
+							<a href="#">English</a>
+							<a href="#">Account</a>
+						</nav>
+					</div>
 				</div>
-				<!-- /logo -->
+				<!-- /Top Nav -->
 				<!-- Navbar -->
-				<nav class="navbar navbar-expand-sm navbar-light justify-content-end">
+				<nav class="container-fluid navbar navbar-expand-sm navbar-light d-flex justify-content-between">
 					<a class="navbar-brand" href="#">
-						<img class="logo-img" src="http://fjallraven.clone/wp-content/uploads/2019/12/Footer-Logo.jpg" alt="Fjallraven Logo">
+						<img class="logo-img" src="http://fjallraven.clone/wp-content/uploads/2019/12/Screen-Shot-2019-12-23-at-3.50.07-PM.png" alt="Fjallraven Logo">
 					</a>
-					<ul class="navbar-nav">
-						<li class="nav-item active">
+					<ul class="navbar-nav col text-uppercase">
+						<li class="nav-item col-md-1">
 							<a class="nav-link" href="#">Men</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item col-md-2">
 							<a class="nav-link" href="#">Women</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item col-md-2">
 							<a class="nav-link" href="#">Bags & Gear</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item col-md-2">
 							<a class="nav-link" href="#">Sustainability</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item col-md-2">
 							<a class="nav-link" href="#">Our Adventures</a>
 						</li>
 					</ul>
+					<hr>
 					<form class="form-inline" action="/action_page.php">
 						<input class="form-control mr-sm-2" type="text" placeholder="Search">
-						<button class="btn btn-success" type="submit">Search</button>
 					</form>
 				</nav> 
 				<!-- /Navbar -->
