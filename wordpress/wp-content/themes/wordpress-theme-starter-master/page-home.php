@@ -7,7 +7,7 @@ get_header(); ?>
 
 	<main role="main">
 		<section>
-			<div class="carousel slide container banner" data-ride="carousel">
+			<div class="carousel slide container banner border" data-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Header-Carousel-Green-Holiday-with-Yellow.jpg" alt="Green holiday">
@@ -37,14 +37,14 @@ get_header(); ?>
       					</div> 
   					</div>
 				</div>
-				<div class="row border">
+				<div class="row">
 					<div class="col-3"></div>
   					<div class="col-6">
     					<div class="row link">
 							<div class="col">God Jul!</div>
-							<div class="col">Kanken</div>
-							<div class="col">Gift Guide</div>
-							<div class="col">Parkas</div>
+							<div class="col divider">Kanken</div>
+							<div class="col divider">Gift Guide</div>
+							<div class="col divider">Parkas</div>
 						</div>
 					</div>
 					<div class="col-3"></div>
