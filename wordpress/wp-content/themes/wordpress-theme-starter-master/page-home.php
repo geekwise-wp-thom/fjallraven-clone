@@ -51,6 +51,22 @@ get_header(); ?>
 				</div>
 			</div>
 		</section>
+		<section>
+			<div class="container explore">
+			<h2> EXPLORE OUR COLLECTION</h2>
+			<p>We craft products for a lifetime of memories. Come closer to nature with Fjällräven and experience nature as we do.</p>
+			</div>
+		</section>
+		<section>
+			<div class="first">
+				<div class="item1">
+					<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-1stGrid-TopLeft-Solo-Woman-scaled.jpg" alt="Woman wearing parka">
+				</div>
+				<div class="item2">
+					<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-1stGrid-TopRight-BlackJacket.jpg" alt="Black parka">
+				</div>
+			</div>
+		</section>
 	</main>
 
 
