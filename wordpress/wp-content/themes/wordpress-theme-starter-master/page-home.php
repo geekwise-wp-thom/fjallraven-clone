@@ -7,7 +7,7 @@ get_header(); ?>
 
 	<main role="main">
 		<section>
-			<div class="carousel slide container banner border" data-ride="carousel">
+			<div class="carousel slide container banner" data-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Header-Carousel-Green-Holiday-with-Yellow.jpg" alt="Green holiday">
@@ -37,14 +37,14 @@ get_header(); ?>
       					</div> 
   					</div>
 				</div>
-				<div class="row">
+				<div class="row border">
 					<div class="col-3"></div>
   					<div class="col-6">
     					<div class="row link">
-							<div class="col">God Jul!</div>
-							<div class="col divider">Kanken</div>
-							<div class="col divider">Gift Guide</div>
-							<div class="col divider">Parkas</div>
+							<div class="col link-text">God Jul!</div>
+							<div class="col link-text divider">Kanken</div>
+							<div class="col link-text divider">Gift Guide</div>
+							<div class="col link-text divider">Parkas</div>
 						</div>
 					</div>
 					<div class="col-3"></div>
@@ -58,12 +58,38 @@ get_header(); ?>
 			</div>
 		</section>
 		<section>
-			<div class="first">
-				<div class="item1">
-					<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-1stGrid-TopLeft-Solo-Woman-scaled.jpg" alt="Woman wearing parka">
-				</div>
-				<div class="item2">
-					<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-1stGrid-TopRight-BlackJacket.jpg" alt="Black parka">
+			<div class="grid">
+				<div class="grid-temp">
+					<div class="item1">
+						<picture class="picback">
+							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-1stGrid-TopLeft-Solo-Woman-scaled.jpg" alt="Woman wearing parka">
+						</picture>
+					</div>
+					<div class="item2">
+						<picture class="picback">
+							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-1stGrid-TopRight-BlackJacket.jpg" alt="Black parka">
+						</picture>
+					</div>
+					<div class="item3">
+						<picture class="picback">
+							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-1stGrid-CenterLeft-Duo-Backpacks.jpg" alt="Duo backpacks">
+						</picture>
+					</div>
+					<div class="item4">
+						<picture class="picback">
+							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-1stGrid-Center-Fluff.jpg" alt="Wool fluff">
+						</picture>
+					</div>
+					<div class="item5">
+						<picture class="picback">
+							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-1stGrid-BottomLeft-Male-with-Lumber.jpg" alt="Male with blue parka holding lumber">
+						</picture>
+					</div>
+					<div class="item6">
+						<picture class="picback">
+							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-1stGrid-BottomRight-Solo-Male.jpg" alt="Male with green parka">
+						</picture>
+					</div>
 				</div>
 			</div>
 		</section>
