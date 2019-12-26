@@ -52,7 +52,7 @@ get_header(); ?>
 			</div>
 		</section>
 		<section>
-			<div class="container explore">
+			<div class="container content">
 			<h2> EXPLORE OUR COLLECTION</h2>
 			<p>We craft products for a lifetime of memories. Come closer to nature with Fjällräven and experience nature as we do.</p>
 			</div>
@@ -91,6 +91,13 @@ get_header(); ?>
 						</picture>
 					</div>
 				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container content">
+				<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-Centered-City-to_Summit.png">
+				<h2>FROM CITY TO SUMMIT</h2>
+				<p>These highly functional product series are created for active lives from the mountains all the way to sea level.</p>
 			</div>
 		</section>
 	</main>

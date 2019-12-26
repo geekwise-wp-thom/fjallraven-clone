@@ -139,7 +139,7 @@
   line-height: 20px;
 }
 
-.explore {
+.content {
   display: block;
   position: relative;
   max-width: 600px;
@@ -148,7 +148,7 @@
   text-align: center;
 }
 
-.explore h2 {
+.content h2 {
   font-family: cursive;
   font-size: 34px;
   font-weight: 900;
@@ -156,7 +156,7 @@
   line-height: 1em;
 }
 
-.explore p {
+.content p {
   margin-top: 10px;
   font-size: 22px;
   font-style: italic;
