@@ -32,19 +32,21 @@
 			<header class="header clear" role="banner">
 			
 				<!-- Top Nav -->
-				<div class="navbar-top">
-						<div class="shipping-center">
-							<strong>Free Shipping over $100!</strong>
-						</div>
-						<nav class="group-links">		
-							<div class="a-tags">
-								<a href="#">Store Locator</a>
+				<div class="navbar-top d-flex justify-content-around align-content-center">
+					<div class="d-flex flex-direction-row justify-content-center align-items-center">
+						<strong>Free Shipping over $100!</strong>
+					</div>
+					<nav class="d-flex flex-direction-row justify-content-between align-content-center">		
+						<div class="d-flex flex-direction-row align-items-center justify-content-between">
+							<a href="#">Store Locator</a>
+							<div>
 								<img src="http://fjallraven.clone/wp-content/uploads/2019/12/flag-us.png" alt="US Flag">
 								<a href="">United States</a>
-								<a href="#">English</a>
-								<a href="#">Account</a>
 							</div>
-						</nav>
+							<a href="#">English</a>
+							<a href="#">Account</a>
+						</div>
+					</nav>
 				</div>
 				<!-- /Top Nav -->
 				<!-- Navbar -->
