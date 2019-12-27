@@ -36,10 +36,11 @@
 						<div class="shipping-center">
 							<strong>Free Shipping over $100!</strong>
 						</div>
-						<nav>		
-							<div class="group-links">
+						<nav class="group-links">		
+							<div class="a-tags">
 								<a href="#">Store Locator</a>
-								<span><img src="http://fjallraven.clone/wp-content/uploads/2019/12/flag-us.png" alt="US Flag"><a href="">United States</a></span>
+								<img src="http://fjallraven.clone/wp-content/uploads/2019/12/flag-us.png" alt="US Flag">
+								<a href="">United States</a>
 								<a href="#">English</a>
 								<a href="#">Account</a>
 							</div>

@@ -78,6 +78,21 @@
 }
 .group-links {
   background-color: darkolivegreen;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+  width: 400px;
+  height: 40px;
+}
+
+.a-tags {
+  background-color: orangered;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 /**
