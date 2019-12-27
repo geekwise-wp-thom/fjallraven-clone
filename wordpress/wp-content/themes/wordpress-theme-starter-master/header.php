@@ -33,7 +33,7 @@
 			
 				<!-- Top Nav -->
 				<div class="navbar-top">
-					<div class="container d-flex justify-content-between">
+					<div class="d-flex container align-items-center justify-content-between">
 						<p><strong>Free Shipping over $100!</strong></p>
 						<nav>
 							<a href="#">Store Locator</a>
@@ -45,7 +45,7 @@
 				</div>
 				<!-- /Top Nav -->
 				<!-- Navbar -->
-				<nav class="container-fluid navbar navbar-expand-sm navbar-light d-flex justify-content-between">
+				<nav class="container navbar navbar-expand-sm navbar-light d-flex justify-content-between">
 					<a class="navbar-brand" href="#">
 						<img class="logo-img" src="http://fjallraven.clone/wp-content/uploads/2019/12/Screen-Shot-2019-12-23-at-3.50.07-PM.png" alt="Fjallraven Logo">
 					</a>

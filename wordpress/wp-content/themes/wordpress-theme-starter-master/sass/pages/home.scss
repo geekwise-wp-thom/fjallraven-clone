@@ -4,4 +4,17 @@ h1 {
 
 body {
   background-color: #f4f4f4;
+  font-family: 'Arial', sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80vw;
+  }
 }

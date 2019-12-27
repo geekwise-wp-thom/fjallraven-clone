@@ -54,15 +54,8 @@
 
 .navbar-top {
   background-color: #E8E7E6;
-}
-
-.logo {
-  width: 35%;
-  max-width: 160px;
-  position: absolute;
-  z-index: 1;
-  top: 3%;
-  left: 7%;
+  font-size: 13px;
+  letter-spacing: 0.03em;
 }
 
 .logo-img {
@@ -138,6 +131,13 @@ h1 {
 
 body {
   background-color: #f4f4f4;
+  font-family: "Arial", sans-serif;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 73vw;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
