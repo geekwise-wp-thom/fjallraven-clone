@@ -33,19 +33,21 @@
 			
 				<!-- Top Nav -->
 				<div class="navbar-top">
-					<div class="d-flex container align-items-center justify-content-between">
-						<p><strong>Free Shipping over $100!</strong></p>
-						<nav>
-							<a href="#">Store Locator</a>
-							<span><img src="http://fjallraven.clone/wp-content/uploads/2019/12/flag-us.png" alt="US Flag"><a href="">United States</a></span>
-							<a href="#">English</a>
-							<a href="#">Account</a>
+						<div class="shipping-center">
+							<strong>Free Shipping over $100!</strong>
+						</div>
+						<nav>		
+							<div class="group-links">
+								<a href="#">Store Locator</a>
+								<span><img src="http://fjallraven.clone/wp-content/uploads/2019/12/flag-us.png" alt="US Flag"><a href="">United States</a></span>
+								<a href="#">English</a>
+								<a href="#">Account</a>
+							</div>
 						</nav>
-					</div>
 				</div>
 				<!-- /Top Nav -->
 				<!-- Navbar -->
-				<nav class="container navbar navbar-expand-sm navbar-light d-flex justify-content-between">
+				<div class="container navbar navbar-expand-sm navbar-light d-flex justify-content-between">
 					<a class="navbar-brand" href="#">
 						<img class="logo-img" src="http://fjallraven.clone/wp-content/uploads/2019/12/Screen-Shot-2019-12-23-at-3.50.07-PM.png" alt="Fjallraven Logo">
 					</a>
@@ -70,7 +72,7 @@
 					<form class="form-inline" action="/action_page.php">
 						<input class="form-control mr-sm-2" type="text" placeholder="Search">
 					</form>
-				</nav> 
+		</div> 
 				<!-- /Navbar -->
 
 			</header>

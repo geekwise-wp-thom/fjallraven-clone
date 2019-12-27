@@ -53,15 +53,10 @@
 }
 
 .navbar-top {
-  /* background-color: #E8E7E6; */
-  background-color: mediumseagreen;
+  background-color: #E8E7E6;
   font-size: 13px;
   letter-spacing: 0.03em;
   height: 40px;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-content: center;
 }
 
 .logo-img {
@@ -70,14 +65,25 @@
 }
 
 .shipping-center {
-  background-color: tomato;
+  color: green !important;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.group-links {
-  background-color: darkolivegreen;
+
+.test {
+  color: red;
+  height: 100px;
+  width: 100vw;
+  background-color: orange;
+}
+
+.test2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /**
