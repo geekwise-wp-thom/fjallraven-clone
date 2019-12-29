@@ -32,22 +32,27 @@
 			<header class="header clear" role="banner">
 			
 				<!-- Top Nav -->
-				<div class="navbar-top d-flex justify-content-around align-content-center">
-					<div class="d-flex flex-direction-row justify-content-center align-items-center">
-						<strong>Free Shipping over $100!</strong>
-					</div>
-					<nav class="d-flex flex-direction-row justify-content-between align-content-center">		
-						<div class="d-flex flex-direction-row align-items-center justify-content-between">
-							<a href="#">Store Locator</a>
-							<div>
-								<img src="http://fjallraven.clone/wp-content/uploads/2019/12/flag-us.png" alt="US Flag">
-								<a href="">United States</a>
-							</div>
-							<a href="#">English</a>
-							<a href="#">Account</a>
+				<nav class="navbar--top navbar navbar-expand-md navbar-light">
+					<div class="container justify-content-around">
+						<span class="nav-item align-text-bottom text-center">Free Shipping over $100!</span>
+						<div class="collapse navbar-collapse">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item">
+									<a href="#" class="nav-link">Store Locator</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link"><img src="http://fjallraven.clone/wp-content/uploads/2019/12/flag-us.png" alt="US Flag"> United States | $</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link">English</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link">Account</a>
+								</li>
+							</ul>
 						</div>
-					</nav>
-				</div>
+					</div>
+				</nav>
 				<!-- /Top Nav -->
 				<!-- Navbar -->
 				<div class="container navbar navbar-expand-sm navbar-light d-flex justify-content-between">

@@ -52,22 +52,16 @@
   margin: 0;
 }
 
-.navbar-top {
+.navbar--top {
   background-color: #E8E7E6;
   font-size: 13px;
   letter-spacing: 0.03em;
   height: 40px;
-  width: 100%;
 }
 
 .logo-img {
   height: 60px;
   width: 150px;
-}
-
-.navbar-top nav div div a {
-  position: relative;
-  top: 2px;
 }
 
 /**
