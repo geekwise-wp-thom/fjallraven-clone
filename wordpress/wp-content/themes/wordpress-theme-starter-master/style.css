@@ -63,15 +63,14 @@
   color: #303030;
 }
 
-.navbar--main div ul li .nav-link {
-  font-size: 14px;
-  font-weight: bold;
-  color: #333333 !important;
-}
-
 .header--divider {
   height: 25px;
   border: 1pt solid #d6d6d6;
+}
+
+.search-box {
+  border: none;
+  background-color: #f4f4f4;
 }
 
 .logo-img {
@@ -139,10 +138,6 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   margin: 0 auto;
-}
-
-h1 {
-  color: mediumaquamarine;
 }
 
 body {

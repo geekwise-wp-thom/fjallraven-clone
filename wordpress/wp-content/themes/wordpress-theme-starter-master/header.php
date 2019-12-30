@@ -60,30 +60,31 @@
 					<a class="navbar-brand" href="#">
 						<img class="logo-img" src="http://fjallraven.clone/wp-content/uploads/2019/12/Screen-Shot-2019-12-23-at-3.50.07-PM.png" alt="Fjallraven Logo">
 					</a>
-					<div class="collapse navbar-collapse">
+					<div class="collapse navbar-collapse mt-4">
 						<ul class="navbar-nav text-uppercase ml-auto">
-							<li class="nav-item">
+							<li class="nav-item p-4">
 								<a class="nav-link" href="#">Men</a>
 							</li>
-							<li class="nav-item">
+							<li class="nav-item p-4">
 								<a class="nav-link" href="#">Women</a>
 							</li>
-							<li class="nav-item">
+							<li class="nav-item p-4">
 								<a class="nav-link" href="#">Bags & Gear</a>
 							</li>
-							<li class="nav-item">
+							<li class="nav-item p-4">
 								<a class="nav-link" href="#">Sustainability</a>
 							</li>
-							<li class="nav-item">
+							<li class="nav-item p-4">
 								<a class="nav-link" href="#">Our Adventures</a>
 							</li>
 						</ul>
 					</div>
 					<hr class="header--divider">
-					<form class="form-inline" action="/action_page.php">
-						<input class="form-control mr-sm-2" type="text" placeholder="Search">
-					</form>
-		</div> 
+					<div action="/action_page.php">
+						<input class="form-control search-box mr-sm-2" type="text" placeholder="Search">
+						<a class="search-btn" href="#">Search</a>
+					</div>
+				</div> 
 				<!-- /Navbar -->
 
 			</header>
