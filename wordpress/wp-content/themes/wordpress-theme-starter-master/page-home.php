@@ -119,6 +119,12 @@ get_header(); ?>
 				</div>
 			</div>		
 		</section>
+		<section>
+		<div class="container content">
+				<h2>CREATED ON NATURE'S TERMS</h2>
+				<p>Nature is our constant source of inspiration here at Fjällräven. And this extends to our material choice.</p>
+			</div>
+		</section>
 	</main>
 
 
