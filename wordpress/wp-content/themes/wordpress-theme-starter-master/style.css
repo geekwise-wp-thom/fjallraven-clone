@@ -1,5 +1,5 @@
 /**
- * styles.scss
+ * style.scss
  * ---
  * Main `sass` file. Import here `sass` files
  */
@@ -47,21 +47,62 @@
  * partials/header
  * ---
  */
-.header {
-  padding: 0;
+
+/**
+ * pages/home
+ * ---
+ */
+ body {
+  padding: 0 20px;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.banner {
+  position: relative;
   margin: 0;
+  width: 100%;
 }
 
-.navbar--top {
-  background-color: #E8E7E6;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  height: 40px;
+.banner .carousel-inner img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 400px;
 }
 
-.navbar--top strong {
-  color: #303030;
+.banner .carousel-caption {
+  font-family: cursive;
+  font-size: 40px;
+  position: absolute;
+  z-index: 1;
+  top: 53%;
+  left: 20%;
+  width: 100%;
+  max-width: 800px;
+  padding: 0 30px;
+  text-align: center;
 }
+.banner .carousel-caption h1 {
+  font-weight: 900;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.banner .carousel-caption .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 25px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  color: #000;
+  font-size: 12px;
+  line-height: 20px;
+}
+
 
 .header--divider {
   height: 25px;
@@ -78,66 +119,118 @@
   width: 150px;
 }
 
-/**
- * partials/footer
- * ---
- */
-.hero {
-  height: 100vh;
-}
-.hero .jumbotron {
+.border {
+  display: block;
+  position: relative;
+  width: 100%;
+  align-items: center;
   padding: 0;
-  margin-bottom: 0;
+  padding-bottom: 50px;
+  border: 2px solid #d6d6d6;
+  border-top: none;
 }
-.hero #video-background {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-  z-index: -100;
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.row .col {
+  text-align: center;
+
+}
+
+.divider {
+  padding-left: 15px;
+  border-left: 2px solid #d6d6d6;
+}
+
+.col {
+  display: inline-block;
+  cursor: pointer;
+  font-family: arial;
+  line-height: 20px;
+}
+
+.content {
+  display: block;
+  position: relative;
+  max-width: 600px;
+  margin-top: 20px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.content h2 {
+  font-family: cursive;
+  font-size: 34px;
+  font-weight: 900;
+  letter-spacing: .06em;
+  line-height: 1em;
+}
+
+.content p {
+  margin-top: 10px;
+  font-size: 22px;
+  font-style: italic;
+  line-height: 1.4em;
+}
+
+.grid {
+  position: relative;
+  margin-top: 25px;
+  padding: 0 20px;
+}
+
+.grid .grid-temp {
+  display: grid;
+  position: relative;
+  grid-template-rows: 300px 20px 160px 20px 260px;
+  grid-template-columns: repeat(2,25% 20px) auto;
+  height: 100%;
   width: 100%;
 }
-.hero .hero-img {
+
+.grid .item1 {
+  position: relative;
+  grid-row: 1;
+  grid-column: 1 /span 3;
+  display: block;
   width: 100%;
-  height: 100vh;
-  top: 0;
+  height: 100%;
+  margin: 0;
+}
+
+.grid .picback  img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
-.hero .info-container {
+
+.grid .item2 {
+  position: relative;
+  grid-row: 1 / span 3;
+  grid-column: 5;
+  display: block;
   width: 100%;
-  position: absolute;
-  bottom: 7vh;
+  height: 100%;
+  margin: 0;
 }
-.hero .info-container .title {
-  font-family: "Roboto Slab", serif;
-  font-size: 2.8rem;
-  font-size: 12.5vw;
-  text-align: center;
-  color: #000;
-  margin-bottom: 20px;
-}
-.hero .info-container .sub-container {
-  height: 76px;
-  font-family: "Hind", sans-serif;
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-.hero .info-container a {
-  color: #000;
-}
-.hero .btn-wide {
-  width: 94%;
-  padding: 11px 10px 8px;
-  background-color: #000;
-  color: #fff;
-  font-family: "Hind", sans-serif;
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin: 0 auto;
+
+.grid .item3 {
+  position: relative;
+  grid-row: 3;
+  grid-column: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
 body {
@@ -145,10 +238,39 @@ body {
   font-family: "Arial", sans-serif;
 }
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 73vw;
-  }
+.grid .item4 {
+  position: relative;
+  grid-row: 3;
+  grid-column: 3;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
+.grid .item5 {
+  position: relative;
+  grid-row: 5;
+  grid-column: 1 / span 3;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.grid .item6 {
+  position: relative;
+  grid-row: 5;
+  grid-column: 5;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.card {
+  padding: 0;
+  border-radius: none;
+  border: 1px solid;
+}
 /*# sourceMappingURL=style.css.map */
