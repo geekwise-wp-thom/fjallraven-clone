@@ -52,31 +52,38 @@
   margin: 0;
 }
 
-.navbar--top {
+.navbar-top {
   background-color: #E8E7E6;
-  font-size: 14px;
+  font-size: 13px;
   letter-spacing: 0.03em;
   height: 40px;
-}
-
-.navbar--top strong {
-  color: #303030;
-}
-
-.navbar--main div ul li .nav-link {
-  font-size: 14px;
-  font-weight: bold;
-  color: #333333 !important;
-}
-
-.header--divider {
-  height: 25px;
-  border: 1pt solid #d6d6d6;
 }
 
 .logo-img {
   height: 60px;
   width: 150px;
+}
+
+.shipping-center {
+  color: green !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.test {
+  color: red;
+  height: 100px;
+  width: 100vw;
+  background-color: orange;
+}
+
+.test2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /**

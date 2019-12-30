@@ -1,3 +1,15 @@
 h1 {
   color: mediumaquamarine;
 }
+
+body {
+  background-color: #f4f4f4;
+  font-family: 'Arial', sans-serif;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 73vw;
+  }
+}
+

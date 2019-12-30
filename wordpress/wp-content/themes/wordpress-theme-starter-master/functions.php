@@ -140,6 +140,14 @@ function register_html5_menu()
     ));
 }
 
+// Register HTML5 Blank Navigation
+function register_navwalker_menu()
+{
+    register_nav_menus( array(
+        'primary' => __( 'Primary Menu', 'THEMENAME' ),
+    ) );
+}
+
 // Remove the <div> surrounding the dynamic navigation to cleanup markup
 function my_wp_nav_menu_args($args = '')
 {
