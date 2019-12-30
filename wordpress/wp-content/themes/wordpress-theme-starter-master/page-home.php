@@ -100,6 +100,25 @@ get_header(); ?>
 				<p>These highly functional product series are created for active lives from the mountains all the way to sea level.</p>
 			</div>
 		</section>
+		<section>
+			<div class="container ">
+				<div class="row">
+  					<div class="card col" style="width:50%; padding:0;">
+   		 			<img class="card-img" src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-Cards-Left-Persons-Driving.jpg" alt="Top view driving" style="width:100%">
+   		 				<div class="card-body">
+    		 	 			<p class="card-text">The Outdoor line is versatile, providing all-weather comfort while in an urban or trail setting. Fjällräven provides products to walk with you during the journey from the city to the top of the mountain.</p>
+    					</div>
+					</div>
+					<div class="col-1-xs" style="width:1%;"></div>
+  					<div class="card col" style="width:50%; padding:0;">
+   		 			<img class="card-img" src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-Cards-Center-Persons-Snow-Trekking.jpg" alt="Persons snow trekking" style="width:100%">
+   		 				<div class="card-body">
+    		 	 			<p class="card-text">Fjällräven offers a wide variety of equipment for all kinds of trekking, in all conditions - designed to be timeless, durable and functional.</p>
+    					</div>
+					 </div>
+				</div>
+			</div>		
+		</section>
 	</main>
 
 

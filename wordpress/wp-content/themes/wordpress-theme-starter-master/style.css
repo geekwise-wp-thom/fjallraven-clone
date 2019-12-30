@@ -246,4 +246,11 @@
   margin: 0;
 }
 
+.card {
+  padding: 0;
+  border-radius: none;
+  border: 1px solid;
+}
+
+
 /*# sourceMappingURL=style.css.map */

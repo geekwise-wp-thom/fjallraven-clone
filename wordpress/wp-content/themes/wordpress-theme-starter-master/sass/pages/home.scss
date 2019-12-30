@@ -208,12 +208,8 @@ body {
   }
 }
 
-
-// .first-grid {
-//   margin: 0 auto;
-//   padding: 10px;
-//   .row {
-//     display: flex;
-//     flex-wrap: wrap;
-//     width: 100%;
-// }
+.card {
+  padding: 0;
+  border-radius: none;
+  border: 1px solid;
+}
