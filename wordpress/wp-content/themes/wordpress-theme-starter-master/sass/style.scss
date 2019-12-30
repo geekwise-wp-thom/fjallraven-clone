@@ -1,5 +1,5 @@
 /**
- * styles.scss
+ * style.scss
  * ---
  * Main `sass` file. Import here `sass` files
  */
@@ -15,7 +15,6 @@
 // Partials
 @import "partials/header";
 @import "partials/footer";
-@import "partials/hero";
 
 // Pages
 @import "pages/home.scss";

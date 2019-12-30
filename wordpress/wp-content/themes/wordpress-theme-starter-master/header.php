@@ -30,8 +30,8 @@
 		<div class="wrapper">
 
 			<!-- header -->
-			<header class="header clear" role="banner">
-			
+			<header role="banner">
+
 				<!-- Top Nav -->
 				<nav class="navbar--top navbar navbar-expand-md navbar-light">
 					<div class="container justify-content-around">
@@ -83,8 +83,8 @@
 					<form class="form-inline" action="/action_page.php">
 						<input class="form-control mr-sm-2" type="text" placeholder="Search">
 					</form>
-		</div> 
+				</div> 
 				<!-- /Navbar -->
-
 			</header>
 			<!-- /header -->
+		</div>
