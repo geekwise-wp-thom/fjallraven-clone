@@ -1,0 +1,47 @@
+/**
+ * partials/header
+ * ---
+ */
+.header {
+    padding: 0;
+    margin: 0;
+}
+  
+.navbar--top {
+    background-color: #E8E7E6;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    height: 40px;
+}
+  
+.navbar--top strong {
+    color: #303030;
+}
+  
+.navbar--main div ul li .nav-link {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333 !important;
+}
+  
+.header--divider {
+    height: 25px;
+    border: 1pt solid #d6d6d6;
+}
+  
+.logo-img {
+    height: 60px;
+    width: 150px;
+}
+
+
+.header--divider {
+    height: 25px;
+    border: 1pt solid #d6d6d6;
+}
+  
+.search-box {
+    border: none;
+    background-color: #f4f4f4;
+}
+  

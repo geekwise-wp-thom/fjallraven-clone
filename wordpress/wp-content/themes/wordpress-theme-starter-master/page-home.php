@@ -6,8 +6,8 @@
 get_header(); ?>
 
 	<main role="main">
-		<section>
-			<div class="carousel slide container banner" data-ride="carousel">
+		<section class="container">
+			<div class="carousel slide banner " data-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Header-Carousel-Green-Holiday-with-Yellow.jpg" alt="Green holiday">

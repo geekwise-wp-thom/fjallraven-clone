@@ -43,22 +43,19 @@
   font-style: normal;
 }
 */
-/**
- * partials/header
- * ---
- */
-
 
 /**
  * pages/home
  * ---
  */
-body {
-  padding: 0 20px;
+ body {
+  background-color: #f4f4f4;
 }
 
-.container {
-  max-width: 100%;
+@media (min-width: 1200px) {
+  .container {
+    max-width: 73vw;
+  }
 }
 
 .banner {
@@ -71,7 +68,7 @@ body {
   position: relative;
   z-index: 1;
   width: 100%;
-  height: 400px;
+  height: 550px;
 }
 
 .banner .carousel-caption {
@@ -102,22 +99,6 @@ body {
   color: #000;
   font-size: 12px;
   line-height: 20px;
-}
-
-
-.header--divider {
-  height: 25px;
-  border: 1pt solid #d6d6d6;
-}
-
-.search-box {
-  border: none;
-  background-color: #f4f4f4;
-}
-
-.logo-img {
-  height: 60px;
-  width: 150px;
 }
 
 .border {
@@ -167,7 +148,7 @@ body {
 }
 
 .content h2 {
-  font-family: cursive;
+  font-family: arial, sans-serif;
   font-size: 34px;
   font-weight: 900;
   letter-spacing: .06em;
@@ -232,11 +213,6 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-}
-
-body {
-  background-color: #f4f4f4;
-  font-family: "Arial", sans-serif;
 }
 
 .grid .item4 {
