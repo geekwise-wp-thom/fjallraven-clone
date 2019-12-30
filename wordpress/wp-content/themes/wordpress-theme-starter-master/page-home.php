@@ -19,21 +19,21 @@ get_header(); ?>
 						<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Header-Carousel-Backpacks-scaled.jpg" alt="Backpacks">
 						<div class="carousel-caption">
        						<h1>FUN FOR THE HOLIDAYS</h1>
-        					<a class="button" href="#">SHOP  <strong>KANKEN</strong></a>
+        					<a class="button" href="#">SHOP<strong class="ml-1">KANKEN</strong></a>
       					</div> 
   					</div>
   					<div class="carousel-item">
 						<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Header-Carousel-Holiday-Packaging.jpg" alt="Holiday packaging">
 						<div class="carousel-caption">
        						<h1>GIVE THE GIFT OF FJALLRAVEN</h1>
-        					<a class="button" href="#">SHOP  <strong>GIFT GUIDE</strong></a>
+        					<a class="button" href="#">SHOP<strong class="ml-1">GIFT GUIDE</strong></a>
       					</div> 
   					</div>
 					<div class="carousel-item">
 						<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Header-Carousel-Women-to-Right-scaled.jpg" alt="Women to right">
 						<div class="carousel-caption" style="text-align: left;">
        						<h1 style="color: gray;">STAY WARM THIS WINTER</h1>
-        					<a class="button" href="#">SHOP  <strong>PARKAS</strong></a>
+        					<a class="button" href="#">SHOP<strong class="ml-1">PARKAS</strong></a>
       					</div> 
   					</div>
 				</div>
@@ -52,9 +52,9 @@ get_header(); ?>
 			</div>
 		</section>
 		<section>
-			<div class="container content">
-			<h2> EXPLORE OUR COLLECTION</h2>
-			<p>We craft products for a lifetime of memories. Come closer to nature with Fjällräven and experience nature as we do.</p>
+			<div class="container content p-5">
+				<h2 class="heading1">EXPLORE OUR COLLECTION</h2>
+				<p>We craft products for a lifetime of memories. Come closer to nature with Fjällräven and experience nature as we do.</p>
 			</div>
 		</section>
 		<section>

@@ -72,7 +72,7 @@
 }
 
 .banner .carousel-caption {
-  font-family: cursive;
+  font-family: 'Jua', sans-serif;
   font-size: 40px;
   position: absolute;
   z-index: 1;
@@ -148,9 +148,9 @@
 }
 
 .content h2 {
-  font-family: arial, sans-serif;
+  font-family: 'Jua', sans-serif;
   font-size: 34px;
-  font-weight: 900;
+  font-weight: bolder;
   letter-spacing: .06em;
   line-height: 1em;
 }
