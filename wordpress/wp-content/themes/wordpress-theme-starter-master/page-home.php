@@ -192,6 +192,13 @@ get_header(); ?>
 					<div class="holder">
 					<input class="text" placeholder="Enter your e-mail" aria-label="Enter your e-mail and signup to our newsletter">
 					</div>
+					<div class="policy">
+						By signing up to the newsletter, you agree to
+						&nbsp;<br>our&nbsp;
+						<a href="https://www.fjallraven.com/legal-content/privacy-cookie-policy/">data protection policy</a>
+						&nbsp;and&nbsp;
+						<a href="https://www.fjallraven.com/legal-content/privacy-cookie-policy/#cookie-policy">cookie policy</a>.
+					</div>
 				</div>
 			</div>
 		</section>
