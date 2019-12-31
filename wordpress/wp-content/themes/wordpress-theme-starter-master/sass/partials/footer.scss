@@ -46,4 +46,11 @@
         color: #303030;
         text-decoration: none;
     }
+    .empty {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        height: 15px;
+        max-height: 21px;
+    }
 }

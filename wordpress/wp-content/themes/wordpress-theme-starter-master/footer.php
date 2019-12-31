@@ -5,44 +5,57 @@
 						<div class="group">
 							<label class="title">Customer Service</label>
 							<ul class="links">
-								<li clas="link">Contact Us</li>
-								<li clas="link">FAQ</li>
-								<li clas="link">Shipping</li>
-								<li clas="link">Returns</li>
-								<li clas="link">Payments</li>
-								<li clas="link">Buyers Guide</li>
-								<li clas="link">Care & Repair</li>
-								<li clas="link">Size Guide</li>
+								<li class="link">Contact Us</li>
+								<li class="link">FAQ</li>
+								<li class="link">Shipping</li>
+								<li class="link">Returns</li>
+								<li class="link">Payments</li>
+								<li class="link">Buyers Guide</li>
+								<li class="link">Care & Repair</li>
+								<li class="link">Size Guide</li>
 						</div>
 					</div>
 					<div class="col">
 						<div class="group">
 							<label class="title">About Fjällräven</label>
 							<ul class="links">
-								<li clas="link">About Us</li>
-								<li clas="link">Sustainability</li>
-								<li clas="link">Our Materials</li>
-								<li clas="link">Careers</li>
-								<li clas="link">Press Room</li>
+								<li class="link">About Us</li>
+								<li class="link">Sustainability</li>
+								<li class="link">Our Materials</li>
+								<li class="link">Careers</li>
+								<li class="link">Press Room</li>
 						</div>
 						<div class="group">
 							<label class="title">Legal</label>
 							<ul class="links">
-								<li clas="link">Terms & Conditions</li>
-								<li clas="link">Legal Notice</li>
-								<li clas="link">Privacy & Data Protection</li>
-								<li clas="link">Accessibility Statement</li>
+								<li class="link">Terms & Conditions</li>
+								<li class="link">Legal Notice</li>
+								<li class="link">Privacy & Data Protection</li>
+								<li class="link">Accessibility Statement</li>
 						</div>
 					</div>
 					<div class="col">
 					<div class="group">
 							<label class="title">Our Adventures</label>
 							<ul class="links">
-								<li clas="link">Fjällräven Polar</li>
-								<li clas="link">Fjällräven Classic</li>
-								<li clas="link" style="text-decoration: underline;">
+								<li class="link">Fjällräven Polar</li>
+								<li class="link">Fjällräven Classic</li>
+								<li class="link" style="text-decoration: underline;">
                                         Opt-In for Google Tracking
-                                    </li>
+								</li>
+								<li clas="link">
+									<picture>
+										<img src="">
+									</picture>
+										Store Locator
+								</li>
+								<li class="empty"></li>
+								<li class="link">Fjällräven</li>
+								<li class="link">Fjällräven</li>
+								<li class="empty"></li>
+								<li class="link">Kånken</li>
+								<li class="link">Kånken</li>
+								<li class="empty"></li>
 					</div>
 				</div>
 

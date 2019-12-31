@@ -407,4 +407,12 @@
   text-decoration: none;
 }
 
+.footer .empty {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  height: 15px;
+  max-height: 21px;
+}
+
 /*# sourceMappingURL=style.css.map */
