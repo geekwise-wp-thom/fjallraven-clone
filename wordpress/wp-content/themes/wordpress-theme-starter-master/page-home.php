@@ -125,6 +125,32 @@ get_header(); ?>
 				<p>Nature is our constant source of inspiration here at Fjällräven. And this extends to our material choice.</p>
 			</div>
 		</section>
+		<section>
+			<div class="grid">
+				<div class="grid-temp">
+					<div class="item1">
+						<picture class="picback">
+							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-2ndGrid-TopLeft-Fox-Patch.jpg" alt="Logo leather patch">
+						</picture>
+					</div>
+					<div class="item2">
+						<picture class="picback">
+							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-2ndGrid-Right-Hand-with-Wool.jpg" alt="Hand pulling wool">
+						</picture>
+					</div>
+					<div class="item3">
+						<picture class="picback">
+							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-2ndGrid-BottomLeft-Hands-with-Down-scaled.jpg" alt="Hands holding down">
+						</picture>
+					</div>
+					<div class="item4">
+						<picture class="picback">
+							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-2ndGrid-BottomCenter-Orange-Backpack.jpg" alt="Orange backpack">
+						</picture>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
 
 
