@@ -121,7 +121,7 @@ get_header(); ?>
 		<section>
 			<div class="container">
 				<div class="row">
-  					<div class="card col" style="width:50%; padding:0;">
+  					<div class="card col" style="width:33%; padding:0;">
    		 			<img class="card-img" src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-Cards-Left-Persons-Driving.jpg" alt="Top view driving" style="width:100%">
    		 				<div class="card-body">
 							<a class="link" href="#"><strong>Everyday Outdoor ></strong></a>
@@ -129,13 +129,21 @@ get_header(); ?>
     					</div>
 					</div>
 					<div class="col-1-xs" style="width:1%;"></div>
-  					<div class="card col" style="width:50%; padding:0;">
+  					<div class="card col" style="width:33%; padding:0;">
    		 			<img class="card-img" src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-Cards-Center-Persons-Snow-Trekking.jpg" alt="Persons snow trekking" style="width:100%">
    		 				<div class="card-body">
 							<a class="link" href="#"><strong>Trekking ></strong></a>
     		 	 			<p class="card-text">Fjällräven offers a wide variety of equipment for all kinds of trekking, in all conditions - designed to be timeless, durable and functional.</p>
     					</div>
-					 </div>
+					</div>
+					<div class="col-1-xs" style="width:1%;"></div>
+  					<div class="card col" style="width:33%; padding:0;">
+   		 			<img class="card-img" src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-Cards-Right-Persons-Mountaineering.jpg" alt="Persons snow trekking" style="width:100%">
+   		 				<div class="card-body">
+							<a class="link" href="#"><strong>Bergtagen Mountaineering ></strong></a>
+    		 	 			<p class="card-text">The Mountaineering line was created to withstand variable conditions while providing solid technical support.  You’ll be prepared to navigate the top of the mountain with our Bergtagen family.</p>
+    					</div>
+					</div>
 				</div>
 			</div>		
 		</section>
