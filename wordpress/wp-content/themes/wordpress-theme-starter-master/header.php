@@ -78,13 +78,13 @@
 							<li class="nav-item p-4">
 								<a class="nav-link text-nowrap" href="#">Our Adventures</a>
 							</li>
-							<hr class="header--divider mt-4">
+							<hr class="nav-item mt-4 header--divider">
 							<li class="nav-item p-4">
-								<a id="search-btn" class="nav-link mr-2 text-nowrap"><i class="fa fa-search mr-2"></i>Search</a>
+								<a id="search-btn" href="#" class="nav-link mr-2 text-nowrap"><i class="fa fa-search mr-2"></i>Search</a>
 							</li>
-							<li class="nav-item p-4">
+							<li class="nav-item p-4 text-nowrap">
 								<i class="fa fa-shopping-bag"></i>
-								<span class="cart--text">$0.00</span>
+								<span id="cart--text">$0.00</span>
 							</li>
 						</ul>
 					</div>
