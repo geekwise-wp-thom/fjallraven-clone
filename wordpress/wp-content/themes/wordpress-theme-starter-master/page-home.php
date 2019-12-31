@@ -65,7 +65,7 @@ get_header(); ?>
 							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-1stGrid-TopLeft-Solo-Woman-scaled.jpg" alt="Woman wearing parka">
 						</picture>
 						<div class="description">
-							<p><strong>Shop Women's Parkas ></strong></p>
+							<p class="link"><strong>Shop Women's Parkas ></strong></p>
 						</div>
 					</div>
 					<div class="item2">
@@ -73,7 +73,7 @@ get_header(); ?>
 							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-1stGrid-TopRight-BlackJacket.jpg" alt="Black parka">
 						</picture>
 						<div class="description">
-							<p><strong>Shop NUUK Parka ></strong></p>
+							<p class="link"><strong>Shop NUUK Parka ></strong></p>
 						</div>
 					</div>
 					<div class="item3">
@@ -81,7 +81,7 @@ get_header(); ?>
 							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-1stGrid-CenterLeft-Duo-Backpacks.jpg" alt="Duo backpacks">
 						</picture>
 						<div class="description">
-							<p><strong>Holiday KANKEN ></strong></p>
+							<p class="link"><strong>Holiday KANKEN ></strong></p>
 						</div>
 					</div>
 					<div class="item4">
@@ -89,7 +89,7 @@ get_header(); ?>
 							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-1stGrid-Center-Fluff.jpg" alt="Wool fluff">
 						</picture>
 						<div class="description">
-							<p><strong>Discover Down ></strong></p>
+							<p class="link"><strong>Discover Down ></strong></p>
 						</div>
 					</div>
 					<div class="item5">
@@ -97,7 +97,7 @@ get_header(); ?>
 							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-1stGrid-BottomLeft-Male-with-Lumber.jpg" alt="Male with blue parka holding lumber">
 						</picture>
 						<div class="description">
-							<p><strong>Shop Men's Parkas ></strong></p>
+							<p class="link"><strong>Shop Men's Parkas ></strong></p>
 						</div>
 					</div>
 					<div class="item6">
@@ -105,7 +105,7 @@ get_header(); ?>
 							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-1stGrid-BottomRight-Solo-Male.jpg" alt="Male with green parka">
 						</picture>
 						<div class="description">
-							<p><strong>Singi Wool Padded Parka ></strong></p>
+							<p class="link"><strong>Singi Wool Padded Parka ></strong></p>
 						</div>
 					</div>
 				</div>
@@ -153,7 +153,7 @@ get_header(); ?>
 							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-2ndGrid-TopLeft-Fox-Patch.jpg" alt="Logo leather patch">
 						</picture>
 						<div class="description">
-							<p><strong>G-1000 ></strong></p>
+							<p class="link"><strong>G-1000 ></strong></p>
 						</div>
 					</div>
 					<div class="item2">
@@ -161,7 +161,7 @@ get_header(); ?>
 							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-2ndGrid-Right-Hand-with-Wool.jpg" alt="Hand pulling wool">
 						</picture>
 						<div class="description">
-							<p><strong>Wool ></strong></p>
+							<p class="link"><strong>Wool ></strong></p>
 						</div>
 					</div>
 					<div class="item3">
@@ -169,7 +169,7 @@ get_header(); ?>
 							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-2ndGrid-BottomLeft-Hands-with-Down-scaled.jpg" alt="Hands holding down">
 						</picture>
 						<div class="description">
-							<p><strong>Down Promise ></strong></p>
+							<p class="link"><strong>Down Promise ></strong></p>
 						</div>
 					</div>
 					<div class="item4">
@@ -177,7 +177,7 @@ get_header(); ?>
 							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-2ndGrid-BottomCenter-Orange-Backpack.jpg" alt="Orange backpack">
 						</picture>
 						<div class="description">
-							<p><strong>Bergshell ></strong></p>
+							<p class="link"><strong>Bergshell ></strong></p>
 						</div>
 					</div>
 				</div>
