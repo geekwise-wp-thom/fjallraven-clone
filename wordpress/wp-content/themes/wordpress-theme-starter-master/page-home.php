@@ -64,31 +64,49 @@ get_header(); ?>
 						<picture class="picback">
 							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-1stGrid-TopLeft-Solo-Woman-scaled.jpg" alt="Woman wearing parka">
 						</picture>
+						<div class="description">
+							<p><strong>Shop Women's Parkas ></strong></p>
+						</div>
 					</div>
 					<div class="item2">
 						<picture class="picback">
 							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-1stGrid-TopRight-BlackJacket.jpg" alt="Black parka">
 						</picture>
+						<div class="description">
+							<p><strong>Shop NUUK Parka ></strong></p>
+						</div>
 					</div>
 					<div class="item3">
 						<picture class="picback">
 							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-1stGrid-CenterLeft-Duo-Backpacks.jpg" alt="Duo backpacks">
 						</picture>
+						<div class="description">
+							<p><strong>Holiday KANKEN ></strong></p>
+						</div>
 					</div>
 					<div class="item4">
 						<picture class="picback">
 							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-1stGrid-Center-Fluff.jpg" alt="Wool fluff">
 						</picture>
+						<div class="description">
+							<p><strong>Discover Down ></strong></p>
+						</div>
 					</div>
 					<div class="item5">
 						<picture class="picback">
 							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-1stGrid-BottomLeft-Male-with-Lumber.jpg" alt="Male with blue parka holding lumber">
 						</picture>
+						<div class="description">
+							<p><strong>Shop Men's Parkas ></strong></p>
+						</div>
 					</div>
 					<div class="item6">
 						<picture class="picback">
 							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-1stGrid-BottomRight-Solo-Male.jpg" alt="Male with green parka">
 						</picture>
+						<div class="description">
+							<p><strong>Singi Wool Padded Parka ></strong></p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -101,11 +119,12 @@ get_header(); ?>
 			</div>
 		</section>
 		<section>
-			<div class="container ">
+			<div class="container">
 				<div class="row">
   					<div class="card col" style="width:50%; padding:0;">
    		 			<img class="card-img" src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-Cards-Left-Persons-Driving.jpg" alt="Top view driving" style="width:100%">
    		 				<div class="card-body">
+							<a class="link" href="#"><strong>Everyday Outdoor ></strong></a>
     		 	 			<p class="card-text">The Outdoor line is versatile, providing all-weather comfort while in an urban or trail setting. Fjällräven provides products to walk with you during the journey from the city to the top of the mountain.</p>
     					</div>
 					</div>
@@ -113,6 +132,7 @@ get_header(); ?>
   					<div class="card col" style="width:50%; padding:0;">
    		 			<img class="card-img" src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-Cards-Center-Persons-Snow-Trekking.jpg" alt="Persons snow trekking" style="width:100%">
    		 				<div class="card-body">
+							<a class="link" href="#"><strong>Trekking ></strong></a>
     		 	 			<p class="card-text">Fjällräven offers a wide variety of equipment for all kinds of trekking, in all conditions - designed to be timeless, durable and functional.</p>
     					</div>
 					 </div>
@@ -127,26 +147,50 @@ get_header(); ?>
 		</section>
 		<section>
 			<div class="grid">
-				<div class="grid-temp">
+				<div class="grid-temp" style="grid-template-rows: 300px 20px 160px;">
 					<div class="item1">
 						<picture class="picback">
 							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-2ndGrid-TopLeft-Fox-Patch.jpg" alt="Logo leather patch">
 						</picture>
+						<div class="description">
+							<p><strong>G-1000 ></strong></p>
+						</div>
 					</div>
 					<div class="item2">
 						<picture class="picback">
 							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-2ndGrid-Right-Hand-with-Wool.jpg" alt="Hand pulling wool">
 						</picture>
+						<div class="description">
+							<p><strong>Wool ></strong></p>
+						</div>
 					</div>
 					<div class="item3">
 						<picture class="picback">
 							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-2ndGrid-BottomLeft-Hands-with-Down-scaled.jpg" alt="Hands holding down">
 						</picture>
+						<div class="description">
+							<p><strong>Down Promise ></strong></p>
+						</div>
 					</div>
 					<div class="item4">
 						<picture class="picback">
 							<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-2ndGrid-BottomCenter-Orange-Backpack.jpg" alt="Orange backpack">
 						</picture>
+						<div class="description">
+							<p><strong>Bergshell ></strong></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container content">
+				<div class="email">
+					<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-2ndCentered-Illustration-Persons-Backpacks.jpg">
+					<h2>FOLLOW OUR JOURNEY</h2>
+					<p>Sign up to our newsletter for the latest news about our products, events and developments.</p>
+					<div class="holder">
+					<input class="text" placeholder="Enter your e-mail" aria-label="Enter your e-mail and signup to our newsletter">
 					</div>
 				</div>
 			</div>
