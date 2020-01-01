@@ -362,7 +362,6 @@
  * pages/women-shop
  * ---
  */
-
 .site {
   position: relative;
   top: 0;
@@ -395,6 +394,37 @@
   display: block;
   margin-top: 25px;
   padding-bottom: 100px;
+}
+
+.shop .browse {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+
+.shop .browse .sidebar {
+  margin-left: 0;
+  position: relative;
+  top: 10px;
+  max-width: 220px;
+  width: 100%;
+  z-index: 2;
+}
+
+.shop .browse .link {
+  padding: 0;
+  border-bottom: 1px solid #d6d6d6;
+  margin: 0;
+  list-style: none;
+  max-width: 200px;
+}
+
+.shop .browse .sub-link {
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  list-style-position: outside;
 }
 
 /**
