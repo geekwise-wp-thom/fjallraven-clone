@@ -15,7 +15,11 @@ get_header(); ?>
 				</div>
 			</div>
 		</section>
-
+		<section>
+			<div class="shop container">
+				
+			</div>
+		</section>
 	</main>
 
 
