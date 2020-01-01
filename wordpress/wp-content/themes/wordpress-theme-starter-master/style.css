@@ -394,13 +394,11 @@
 
 .footer .links {
   margin-top: 10px;
-  margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .footer .link {
-  display: flex;
   padding: 0;
   border-bottom: none;
   color: #303030;
