@@ -365,13 +365,12 @@
 .site {
   position: relative;
   top: 0;
-  padding: 140px;
+  padding: 0 20px;
   background-color: #f4f4f4;
  }
 
 .site .title {
   position: relative;
-  padding: 0 20px;
   margin-top: 0;
  }
 
@@ -391,19 +390,72 @@
 }
 
 .shop {
-  display: block;
+  display: flex;
   margin-top: 25px;
   padding-bottom: 100px;
-}
-
-.shop .browse {
-  display: flex;
-  position: relative;
   align-items: flex-start;
 }
 
-.shop .browse .sidebar {
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.shop .product .item {
+  padding: 9px;
+  position: relative;
+  border: 1px solid transparent;
+  margin-bottom: 30px;
+  border-bottom-width: 0;
+  width: 50%;
+}
+
+.shop .product .item-image {
+  display: block;
+  position: relative;
+}
+
+.shop .product .item-image img {
+  display: inline-block;
+  padding: 20px;
+  background-color: #fff;
+  width: 100%;
+  outline: 1px solid rgba(0,0,0,.1);
+  outline-offset: -1px;
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+  vertical-align: middle;
+}
+
+.shop .product .item-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8px;
+  border: 1px solid transparent;
+  border-top-width: 0;;
+}
+
+.shop .product .item-info h1 {
+  margin-top: 0;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.shop .product .item-info .item-price {
+  font-size: 16px;
+  margin-top: 0;
+  font-weight: 700;
+}
+
+.shop .sidebar {
   margin-left: 0;
+  padding: 0;
   position: relative;
   top: 10px;
   max-width: 220px;
@@ -411,21 +463,23 @@
   z-index: 2;
 }
 
-.shop .browse .link {
-  padding: 0;
+.shop .link {
   border-bottom: 1px solid #d6d6d6;
   margin: 0;
   list-style: none;
   max-width: 200px;
+  text-transform: uppercase;
+  padding: 10px 0 10px 22px;
 }
 
-.shop .browse .sub-link {
+.shop .sub-link {
   display: block;
   padding: 0;
   margin: 0;
   list-style: none;
   list-style-position: outside;
 }
+
 
 /**
  * footer
