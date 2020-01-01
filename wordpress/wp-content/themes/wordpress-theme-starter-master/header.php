@@ -66,7 +66,7 @@
 								<a class="nav-link" href="#">Men</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Women</a>
+								<a class="nav-link" href="women-shop">Women</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#">Bags & Gear</a>
