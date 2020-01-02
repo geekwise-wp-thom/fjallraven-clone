@@ -6,8 +6,8 @@
 get_header(); ?>
 
 	<main role="main">
-		<section>
-			<div class="carousel slide container banner" data-ride="carousel">
+		<section class="container mt-5 pt-5">
+			<div class="carousel slide banner " data-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Header-Carousel-Green-Holiday-with-Yellow.jpg" alt="Green holiday">
@@ -19,21 +19,21 @@ get_header(); ?>
 						<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Header-Carousel-Backpacks-scaled.jpg" alt="Backpacks">
 						<div class="carousel-caption">
        						<h1>FUN FOR THE HOLIDAYS</h1>
-        					<a class="button" href="#">SHOP  <strong>KANKEN</strong></a>
+        					<a class="button" href="#">SHOP<strong class="ml-1">KANKEN</strong></a>
       					</div> 
   					</div>
   					<div class="carousel-item">
 						<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Header-Carousel-Holiday-Packaging.jpg" alt="Holiday packaging">
 						<div class="carousel-caption">
        						<h1>GIVE THE GIFT OF FJALLRAVEN</h1>
-        					<a class="button" href="#">SHOP  <strong>GIFT GUIDE</strong></a>
+        					<a class="button" href="#">SHOP<strong class="ml-1">GIFT GUIDE</strong></a>
       					</div> 
   					</div>
 					<div class="carousel-item">
 						<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Header-Carousel-Women-to-Right-scaled.jpg" alt="Women to right">
 						<div class="carousel-caption" style="text-align: left;">
        						<h1 style="color: gray;">STAY WARM THIS WINTER</h1>
-        					<a class="button" href="#">SHOP  <strong>PARKAS</strong></a>
+        					<a class="button" href="#">SHOP<strong class="ml-1">PARKAS</strong></a>
       					</div> 
   					</div>
 				</div>
@@ -52,13 +52,13 @@ get_header(); ?>
 			</div>
 		</section>
 		<section>
-			<div class="container content">
-			<h2> EXPLORE OUR COLLECTION</h2>
-			<p>We craft products for a lifetime of memories. Come closer to nature with Fjällräven and experience nature as we do.</p>
+			<div class="container content p-5">
+				<h2 class="heading1">EXPLORE OUR COLLECTION</h2>
+				<p>We craft products for a lifetime of memories. Come closer to nature with Fjällräven and experience nature as we do.</p>
 			</div>
 		</section>
 		<section>
-			<div class="grid">
+			<div class="grid container">
 				<div class="grid-temp">
 					<div class="item1">
 						<picture class="picback">
@@ -113,7 +113,7 @@ get_header(); ?>
 		</section>
 		<section>
 			<div class="container content">
-				<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-Centered-City-to_Summit.png">
+				<img id="summit" src="http://fjallraven.clone/wp-content/uploads/2020/01/Body-Centered-City-to_Summit.png.png">
 				<h2>FROM CITY TO SUMMIT</h2>
 				<p>These highly functional product series are created for active lives from the mountains all the way to sea level.</p>
 			</div>
@@ -154,7 +154,7 @@ get_header(); ?>
 			</div>
 		</section>
 		<section>
-			<div class="grid">
+			<div class="grid container">
 				<div class="grid-temp" style="grid-template-rows: 300px 20px 160px;">
 					<div class="item1">
 						<picture class="picback">
@@ -194,11 +194,11 @@ get_header(); ?>
 		<section>
 			<div class="container content">
 				<div class="email">
-					<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-2ndCentered-Illustration-Persons-Backpacks.jpg">
+					<img src="http://fjallraven.clone/wp-content/uploads/2019/12/Body-2ndCentered-Illustration-Persons-Backpacks.png">
 					<h2>FOLLOW OUR JOURNEY</h2>
 					<p>Sign up to our newsletter for the latest news about our products, events and developments.</p>
-					<div class="holder">
-					<input class="text" placeholder="Enter your e-mail" aria-label="Enter your e-mail and signup to our newsletter">
+					<div class="holder mx-auto">
+						<input class="text" placeholder="Enter your e-mail" aria-label="Enter your e-mail and signup to our newsletter">
 					</div>
 					<div class="policy">
 						By signing up to the newsletter, you agree to
