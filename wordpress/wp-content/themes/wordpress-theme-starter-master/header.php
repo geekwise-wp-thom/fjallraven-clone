@@ -80,16 +80,9 @@
 						</ul>
 					</div>
 					<hr class="header--divider">
-<<<<<<< HEAD
-					<div action="/action_page.php">
-						<input class="form-control search-box mr-sm-2" type="text" placeholder="Search">
-						<a class="search-btn" href="#">Search</a>
-					</div>
-=======
 					<form class="form-inline" action="/action_page.php">
 						<input class="form-control mr-sm-2" type="text" placeholder="Search">
 					</form>
->>>>>>> origin/development
 				</div> 
 				<!-- /Navbar -->
 			</header>
