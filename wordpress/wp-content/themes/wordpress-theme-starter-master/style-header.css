@@ -17,10 +17,16 @@
     letter-spacing: 0.03em;
     height: 40px;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 .navbar--top strong {
     color: #303030;
+}
+
+.navbar--main {
+    height: 60px;
+    background-color: #f4f4f4;
 }
   
 .navbar--main div ul li .nav-link {
@@ -37,11 +43,17 @@
 .header--divider {
     height: 25px;
     border: 1pt solid #d6d6d6;
+    margin-top: 5px;
+    margin-bottom: 0;
 }
   
-.logo-img {
+.logo-img::before {
     height: 60px;
     width: 150px;
+}
+
+.logo-img::after {
+    transform: scale(0.5) translate(-100%);
 }
   
 #search-btn {
@@ -50,4 +62,10 @@
 
 #cart--text {
     font-size: 12px;
+}
+
+@media (min-width: 1185px) {
+    .navbar-toggler {
+        float: left !important;
+    }
 }
