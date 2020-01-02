@@ -5,5 +5,51 @@
 
 
 .footer {
-    background-color: orange;
-}
+    display: block;
+    padding: 80px 25px;
+    text-align: left;
+    background-color: #e8e7e6;
+    font-size: 16px;
+    .container {
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        padding : 100px 0;
+        position: relative;
+        max-width: 976px;
+        margin: 0 auto;
+    }
+    .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: left;
+    }
+    .title {
+        position: relative;
+        display: block;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .links {
+        margin-top: 10px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .link {
+        display: flex;
+        padding: 0;
+        border-bottom: none;
+        color: #303030;
+        text-decoration: none;
+    }
+    .empty {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        height: 15px;
+        max-height: 21px;
+    }

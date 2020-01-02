@@ -64,6 +64,15 @@
   position: relative;
   margin: 0;
   width: 100%;
+  padding: 0 20px;
+}
+
+.banner .carousel-item {
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .banner .carousel-inner img {
@@ -159,7 +168,7 @@
 .content {
   display: block;
   position: relative;
-  max-width: 600px;
+  max-width: 100%;
   margin-top: 20px;
   padding: 0 20px;
   text-align: center;
@@ -268,9 +277,164 @@ body {
   margin: 0;
 }
 
-.card {
-  padding: 0;
-  border-radius: none;
-  border: 1px solid;
+.grid .description {
+  padding: 50px 25px 15px;
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  display: block;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.4) 90px);
+  color: #fff; 
 }
+
+.grid .description .link {
+  display: block;
+  color: #fff;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 85%;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px
+}
+
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-style: none;
+}
+
+.card img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+  border-radius: 0;
+}
+
+.card .card-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  border: 1px solid rgba(0,0,0,.1);
+  border-top: none;
+}
+
+.card .link {
+  position: relative;
+  padding-right: 25px;
+  color: inherit;
+  font-weight: 700;
+  align-items: center;
+  text-decoration: none;
+}
+
+.card .card-text {
+  display: block;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.email {
+  margin-top: 20px;
+}
+
+.email .holder {
+  position: relative;
+  opacity: 1;
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 20px;
+  color: #303030;
+  border: 2px solid rgba(0,0,0,.15);
+  background-color: #fff;
+  margin: 0;
+}
+
+.email .holder input {
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-indent: 0px;
+  display: inline-block;
+  cursor: text;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  padding: 1px 0px;
+  border-width: 0;
+  border-style: none;
+}
+
+.email .policy {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.footer {
+  display: block;
+  padding: 80px 25px;
+  text-align: left;
+  background-color: #e8e7e6;
+  font-size: 16px;
+}
+
+.footer .container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding : 100px 0;
+  position: relative;
+  max-width: 976px;
+  margin: 0 auto;
+}
+
+.footer .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.footer .title {
+  position: relative;
+  display: block;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer .links {
+  margin-top: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer .link {
+  display: flex;
+  padding: 0;
+  border-bottom: none;
+  color: #303030;
+  text-decoration: none;
+}
+
+.footer .empty {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  height: 15px;
+  max-height: 21px;
+}
+
 /*# sourceMappingURL=style.css.map */
