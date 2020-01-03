@@ -58,7 +58,8 @@
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<a class="navbar-brand text-center col" href="#">
-					<img class="logo-img p-1" src="http://fjallraven.clone/wp-content/uploads/2019/12/fox_raven-1.png" alt="Fjallraven Logo">
+					<img class="logo-img fox" src="http://fjallraven.clone/wp-content/uploads/2020/01/fox.png" alt="Fox Winking Logo">
+					<img class="logo-img raven" src="http://fjallraven.clone/wp-content/uploads/2020/01/raven.png" alt="Fjallraven Logo Script">
 				</a>
 				<div class="collapse navbar-collapse mt-4" id="collapse_target">
 					<ul class="dropdown navbar-nav mr-auto">

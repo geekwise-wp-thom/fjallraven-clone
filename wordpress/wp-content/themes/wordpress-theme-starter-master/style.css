@@ -58,6 +58,12 @@
   }
 }
 
+@media (max-width: 767px) {
+  .carousel-links{
+    display: none !important;
+  } 
+}
+
 #summit {
   background-color: transparent;
 }
@@ -154,7 +160,6 @@
 .content {
   display: block;
   position: relative;
-  max-width: 100%;
   margin-top: 20px;
   padding: 0 20px;
   text-align: center;
