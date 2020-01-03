@@ -43,7 +43,7 @@ get_header(); ?>
     					<div class="row link">
 							<div class="col link-text">God Jul!</div>
 							<div class="col link-text divider">Kanken</div>
-							<div class="col link-text divider">Gift Guide</div>
+							<div class="col link-text divider text-nowrap">Gift Guide</div>
 							<div class="col link-text divider">Parkas</div>
 						</div>
 					</div>

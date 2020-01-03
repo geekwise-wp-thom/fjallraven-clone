@@ -60,8 +60,8 @@
 				<a class="navbar-brand text-center col" href="#">
 					<img class="logo-img p-1" src="http://fjallraven.clone/wp-content/uploads/2019/12/fox_raven-1.png" alt="Fjallraven Logo">
 				</a>
-				<div class="collapse navbar-collapse mt-4 ml-5" id="collapse_target">
-					<ul class="navbar-nav mr-auto">
+				<div class="collapse navbar-collapse mt-4" id="collapse_target">
+					<ul class="dropdown navbar-nav mr-auto">
 						<li class="nav-item pb-4 px-2">
 							<a class="nav-link" href="#">Men</a>
 						</li>
