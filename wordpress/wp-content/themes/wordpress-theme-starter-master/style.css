@@ -68,6 +68,15 @@
   background-color: transparent;
 }
 
+.fade-in {
+  opacity: 0;
+  transition: opacity .5s ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
 .banner {
   position: relative;
   margin: 0;
