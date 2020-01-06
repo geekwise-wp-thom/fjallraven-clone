@@ -1,0 +1,53 @@
+/**
+ * partials/header
+ * ---
+ */
+.header {
+    padding: 0;
+    margin: 0;
+}
+
+.sticky-top {
+    height: 40px;
+}
+
+.navbar--top {
+    background-color: #E8E7E6;
+    font-size: 13.5px;
+    letter-spacing: 0.03em;
+    height: 40px;
+    width: 100%;
+}
+
+.navbar--top strong {
+    color: #303030;
+}
+  
+.navbar--main div ul li .nav-link {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    color: #333333 !important;
+}
+
+.nav-container {
+    padding: 0 20px 0 20px;
+}
+
+.header--divider {
+    height: 25px;
+    border: 1pt solid #d6d6d6;
+}
+  
+.logo-img {
+    height: 60px;
+    width: 150px;
+}
+  
+#search-btn {
+    font-weight: lighter;
+}  
+
+#cart--text {
+    font-size: 12px;
+}

@@ -1,6 +1,9 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
 				<div class="row container">
+				<div class="col">
+					<a href="#"><img src="" alt=""></a>
+				</div>
 					<div class="col">
 						<div class="group">
 							<label class="title">Customer Service</label>
@@ -68,8 +71,6 @@
 					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
 				</p>
 				<!-- /copyright -->
-		</div>
-		<!-- /wrapper -->
 
 		<?php wp_footer(); ?>
 
