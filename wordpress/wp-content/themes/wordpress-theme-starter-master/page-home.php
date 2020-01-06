@@ -37,17 +37,17 @@ get_header(); ?>
       					</div> 
   					</div>
 				</div>
-				<div class="row border">
-					<div class="col-3"></div>
-  					<div class="col-6">
+				<div class="carousel-links text-nowrap row border">
+					<div class="col-2"></div>
+  					<div class="col-8">
     					<div class="row link">
 							<div class="col link-text">God Jul!</div>
 							<div class="col link-text divider">Kanken</div>
-							<div class="col link-text divider">Gift Guide</div>
+							<div class="col link-text divider text-nowrap">Gift Guide</div>
 							<div class="col link-text divider">Parkas</div>
 						</div>
 					</div>
-					<div class="col-3"></div>
+					<div class="col-2"></div>
 				</div>
 			</div>
 		</section>

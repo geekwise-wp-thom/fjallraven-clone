@@ -58,8 +58,23 @@
   }
 }
 
+@media (max-width: 767px) {
+  .carousel-links{
+    display: none !important;
+  } 
+}
+
 #summit {
   background-color: transparent;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity .5s ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
 }
 
 .banner {
@@ -154,7 +169,6 @@
 .content {
   display: block;
   position: relative;
-  max-width: 100%;
   margin-top: 20px;
   padding: 0 20px;
   text-align: center;
