@@ -54,7 +54,7 @@ Vagrant.configure(2) do |config|
   config.vm.synced_folder _conf['synced_folder'],
       _conf['document_root'], :create => "true", :mount_options => ['dmode=755', 'fmode=644'],
       SharedFoldersEnableSymlinksCreate: false
-
+  
   if Vagrant.has_plugin?('vagrant-hostsupdater')
     config.hostsupdater.aliases = _conf['hostname_aliases']
     config.hostsupdater.remove_on_suspend = true

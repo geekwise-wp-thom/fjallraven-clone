@@ -108,6 +108,12 @@ function html5blank_header_scripts()
         
         wp_register_script('scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '1.0.0'); // Custom scripts
         wp_enqueue_script('scripts'); // Enqueue it!
+
+        wp_register_script('scroll', get_template_directory_uri() . '/js/scroll.js', array('jquery'), '1.0.0'); // Custom scripts
+        wp_enqueue_script('scroll'); // Enqueue it!
+
+        wp_register_script('jquery', 'https://code.jquery.com/jquery-3.2.1.slim.min.js', array('jquery'), '', true); // Jquery
+        wp_enqueue_script('jquery'); // Enqueue it!
     }
 }
 
@@ -128,6 +134,8 @@ function html5blank_styles()
     wp_enqueue_style( 'bootstrap_css', '//stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' );
     wp_register_style('style', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
     wp_enqueue_style('style'); // Enqueue it!
+    wp_register_style('style-header', get_template_directory_uri() . '/style-header.css', array(), '1.0', 'all');
+    wp_enqueue_style('style-header'); // Enqueue it!
 }
 
 // Register HTML5 Blank Navigation
@@ -138,6 +146,14 @@ function register_html5_menu()
         'sidebar-menu' => __('Sidebar Menu', 'html5blank'), // Sidebar Navigation
         'extra-menu' => __('Extra Menu', 'html5blank') // Extra Navigation if needed (duplicate as many as you need!)
     ));
+}
+
+// Register HTML5 Blank Navigation
+function register_navwalker_menu()
+{
+    register_nav_menus( array(
+        'primary' => __( 'Primary Menu', 'THEMENAME' ),
+    ) );
 }
 
 // Remove the <div> surrounding the dynamic navigation to cleanup markup
