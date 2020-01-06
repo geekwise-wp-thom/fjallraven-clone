@@ -5,7 +5,7 @@
 		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
 
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
-        <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
+        <link href="<?php echo get_template_directory_uri(); ?>\img\icons\fox.png" rel="shortcut icon">
 		<link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet"> 
@@ -58,7 +58,7 @@
 				<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<a class="navbar-brand text-center col" href="#">
+				<a class="navbar-brand text-center col" href="http://fjallraven.clone/">
 					<img class="logo-img fox" src="http://fjallraven.clone/wp-content/uploads/2020/01/fox.png" alt="Fox Winking Logo">
 					<img class="logo-img raven" src="http://fjallraven.clone/wp-content/uploads/2020/01/raven.png" alt="Fjallraven Logo Script">
 				</a>
