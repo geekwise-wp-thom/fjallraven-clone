@@ -38,7 +38,7 @@
 							<a href="#" class="nav-link">Store Locator</a>
 						</li>
 						<li class="nav-item">
-							<a href="#" class="nav-link"><img src="http://fjallraven.clone/wp-content/uploads/2019/12/flag-us.png" alt="US Flag"> United States | $ <i class="fa fa-angle-down"></i></a>
+							<a href="#" class="nav-link"><img src="http://fjallraven.clone/wp-content/uploads/2020/01/flag-us.png" alt="US Flag"> United States | $ <i class="fa fa-angle-down"></i></a>
 						</li>
 						<li class="nav-item">
 							<a href="#" class="nav-link">English <i class="fa fa-angle-down"></i></a>
