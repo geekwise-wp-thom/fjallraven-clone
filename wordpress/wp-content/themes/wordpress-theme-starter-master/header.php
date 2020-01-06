@@ -28,59 +28,6 @@
 	<body <?php body_class(); ?>>
 
 
-		<!-- wrapper -->
-		<div class="wrapper">
-
-			<!-- header -->
-			<header role="banner">
-
-				<!-- Top Nav -->
-				<nav class="navbar--top navbar navbar-expand-md navbar-light">
-					<div class="container justify-content-around">
-						<span class="nav-item align-text-bottom text-center"><strong>Free Shipping over $100!</strong></span>
-						<div class="collapse navbar-collapse">
-							<ul class="navbar-nav ml-auto">
-								<li class="nav-item">
-									<a href="#" class="nav-link p">Store Locator</a>
-								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link"><img src="http://fjallraven.clone/wp-content/uploads/2019/12/flag-us.png" alt="US Flag"> United States | $ <i class="fa fa-angle-down"></i></a>
-								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link">English <i class="fa fa-angle-down"></i></a>
-								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link">Account <i class="fa fa-angle-down"></i></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</nav>
-				<!-- /Top Nav -->
-				<!-- Navbar -->
-				<div class="navbar--main container navbar navbar-expand-md navbar-light">
-					<a class="navbar-brand" href="#">
-						<img class="logo-img" src="http://fjallraven.clone/wp-content/uploads/2019/12/Screen-Shot-2019-12-23-at-3.50.07-PM.png" alt="Fjallraven Logo">
-					</a>
-					<div class="collapse navbar-collapse">
-						<ul class="navbar-nav text-uppercase ml-auto">
-							<li class="nav-item">
-								<a class="nav-link" href="#">Men</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="women-shop">Women</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Bags & Gear</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Sustainability</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Our Adventures</a>
-							</li>
-						</ul>
-
 		<!-- Top Nav -->
 		<nav class="navbar--top navbar navbar-expand-md navbar-light">
 			<div class="container">
@@ -121,7 +68,7 @@
 							<a class="nav-link" href="#">Men</a>
 						</li>
 						<li class="nav-item pb-4 px-2">
-							<a class="nav-link" href="#">Women</a>
+							<a class="nav-link" href="women-shop">Women</a>
 						</li>
 						<li class="nav-item pb-4 px-2">
 							<a class="nav-link text-nowrap" href="#">Bags & Gear</a>
