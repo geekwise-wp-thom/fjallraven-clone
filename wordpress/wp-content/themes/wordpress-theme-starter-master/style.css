@@ -361,6 +361,136 @@
   padding-bottom: 100px;
 }
 
+/**
+ * pages/women-shop
+ * ---
+ */
+.site {
+  position: relative;
+  top: 0;
+  padding: 0 20px;
+  background-color: #f4f4f4;
+ }
+
+.site .title {
+  position: relative;
+  margin-top: 0;
+ }
+
+.site .title .title-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.site .title h1 {
+  margin-top: 0;
+  font-size: 34px;
+  font-weight: 900;
+  letter-spacing: .06em;
+  line-height: 1em;
+}
+
+.shop {
+  display: flex;
+  margin-top: 25px;
+  padding-bottom: 100px;
+  align-items: flex-start;
+}
+
+.shop .browse {
+  margin-left: 0;
+  padding: 0;
+  position: relative;
+  top: 10px;
+  max-width: 220px;
+  width: 100%;
+  z-index: 2;
+  transform: translateZ(0)
+}
+
+.shop .sidebar {
+  margin: 0;
+  max-width: 200px;
+}
+
+.shop .link {
+  border-bottom: 1px solid #d6d6d6;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 10px 0 10px 22px;
+}
+
+.shop .sub-link {
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  list-style-position: outside;
+}
+
+.shop .tiles {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -10px;
+}
+
+.shop .product {
+  padding: 9px;
+  position: relative;
+  border: 1px solid transparent;
+  margin-bottom: 30px;
+  border-bottom-width: 0;
+  width: 50%;
+}
+
+.shop .product .item-image {
+  display: block;
+  position: relative;
+}
+
+.shop .product .item-image img {
+  display: inline-block;
+  padding: 20px;
+  background-color: #fff;
+  width: 100%;
+  outline: 1px solid rgba(0,0,0,.1);
+  outline-offset: -1px;
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+  vertical-align: middle;
+}
+
+.shop .product .item-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8px;
+  border: 1px solid transparent;
+  border-top-width: 0;;
+}
+
+.shop .product .item-info h1 {
+  margin-top: 0;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.shop .product .item-info .item-price {
+  font-size: 16px;
+  margin-top: 0;
+  font-weight: 700;
+}
+
+/**
+ * footer
+ * ---
+ */
+
 .footer {
   display: block;
   padding: 80px 25px;
@@ -397,14 +527,12 @@
 
 .footer .links {
   margin-top: 10px;
-  margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .footer .link {
-  display: flex;
-  padding: 0;
+  padding: 2px 0;
   border-bottom: none;
   color: #303030;
   text-decoration: none;
